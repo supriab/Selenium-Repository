@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name ="ebay">
+    <listeners>
+        <listener class-name="TestTracking"/>
+    </listeners>
+
+    <test name ="regression">
+        <classes>
+            <class name ="HomeTest" ></class>
+            <class name ="CartTest" ></class>
+        </classes>
+    </test>
+</suite>
